@@ -1,2 +1,7 @@
-# sample_elixir_graphql-elixir
-Sample : graphql-elixir
+# SampleGraphQlElixir
+
+[```graphql-elixir```](https://github.com/joshprice/graphql-elixir) sample.
+
+```
+mix test
+```

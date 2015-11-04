@@ -1,0 +1,2 @@
+defmodule SampleGraphQlElixir do
+end
