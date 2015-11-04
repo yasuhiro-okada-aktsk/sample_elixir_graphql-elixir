@@ -22,6 +22,17 @@ defmodule SampleGraphQlElixirTest do
       """)
   end
 
+  test "sample_parse_mutation2" do
+    IO.puts "sample_parse_mutation2"
+    IO.inspect GraphQL.parse("""
+      mutation Mutation {
+        checkHidingSpotForTreasure(input: {id: "SGlkaW5nU3BvdDoz", clientMutationId: "0"} ) {
+          clientMutationId
+        }
+      }
+      """)
+  end
+
   test "sample_schema" do
     IO.puts "sample_schema"
     IO.inspect GraphQL.parse("""
